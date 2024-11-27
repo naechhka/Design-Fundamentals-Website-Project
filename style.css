@@ -176,18 +176,6 @@ a{
 
 
 
-/* Contrast part */
-
-.box-img-carp {
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-
-
 .box-img-carp img {
 
     width: 70%;
@@ -212,6 +200,41 @@ a{
     color: #f6f7eb;
 
 }
+
+.box-text-carp {
+
+    width: 30vw;
+
+}
+
+.box1-carp {
+    
+    display: flex;
+    justify-content: start;
+
+}
+
+.box5-carp {
+
+    display: flex;
+    justify-content: start;
+
+}
+
+.box4-carp {
+
+    display: flex;
+    justify-content: end;
+
+}
+
+.box8-carp {
+    
+    display: flex;
+    justify-content: end;
+
+}
+
 
 
 
