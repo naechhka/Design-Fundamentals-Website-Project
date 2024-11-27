@@ -2,7 +2,13 @@
 
     margin: 0;
     padding: 0;
-    background-color:#12263a;
+
+}
+
+body{
+
+    background-image: linear-gradient(10deg, #12263a 25%, #f6f7eb 25%, #12263a 50%, 
+    #12263a 75%, #f6f7eb 75%,  #12263a 100%);
 
 }
 
@@ -138,7 +144,7 @@ li {
     width: 450px;
     height: 350px;
     border-radius: 40px;
-    background-color:rgb(130, 9, 51);
+    background-color: #820933;
     margin-top: 10%;
     color: #f6f7eb;
     justify-content: center;
@@ -148,6 +154,12 @@ li {
     font-weight: 500;
     font-size: large;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.block3 p {
+
+    background-color: #820933;
 
 }
 
