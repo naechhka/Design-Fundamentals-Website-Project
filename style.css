@@ -140,7 +140,7 @@ a{
     display: flex;
     justify-content: center;
     height: 30vh;
-    background-color: rgb(246, 247, 235);
+    background-color: #f6f7eb;
 
 }
 
@@ -170,14 +170,49 @@ a{
 
 .box {
 
-    background: lightblue;
     width: 40vw;
 
 }
 
-.box1 img {
 
-    width: 20%;
-    height: auto;
+
+/* Contrast part */
+
+.box-img-carp {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
+
+
+
+.box-img-carp img {
+
+    width: 70%;
+    height: auto;
+    border-radius: 40px;
+    margin-top: 4vw;
+    border: solid 4px #f6f7eb;
+
+}
+
+.box-text-carp {
+
+    display: flex;
+    line-height: 1.8;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    font-weight: 400;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #f6f7eb;
+
+}
+
+
+
+
