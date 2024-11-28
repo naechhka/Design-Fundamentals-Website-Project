@@ -201,9 +201,11 @@ li {
 /*  Carp page starts  */
 
 
-.carp-page{
+.carp-page {
+
     background-image: linear-gradient(10deg, #12263a 25%, #f6f7eb 25%, #12263a 50%, 
     #12263a 75%, #f6f7eb 75%,  #12263a 100%);
+
 }
 
 .boxes-container-carp {
@@ -286,6 +288,19 @@ li {
     justify-content: end;
 
 }
+
+
+
+
+/* Typography page */
+
+.typography-page {
+
+    background-image: linear-gradient(10deg, #12263a 25%, #f6f7eb 25%, #12263a 50%,  #f6f7eb 50%,
+    #12263a 75%, #f6f7eb 75%,  #12263a 100%);
+}
+
+
 
 
 
