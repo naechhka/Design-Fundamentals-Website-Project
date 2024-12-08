@@ -115,22 +115,23 @@ li {
     height: 50%;
 
 }
-/* 
-.column1 {
-
-    display: flex;
-    flex: 1;
-    margin-left: 2%;
-    align-items: center;
-
-} */
 
 .column1 img {
 
-    width: 100%;
+    width: 92%;
+    padding-left: 20%;
  
 }
 
+.column2 {
+
+    flex: 1;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
 
 .block2 {
 
@@ -143,27 +144,26 @@ li {
 
 .block2 img {
 
-    max-width: 50%;
+    max-width: 40%;
     height: auto;
-    border-radius: 40px;
+    border-radius: 40pt;
+    margin-bottom: 2%;
 
 }
 
 .block3 {
 
     display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 60%;
+    width: 50%;
     height: 20%;;
     border-radius: 40px;
     background-color: #820933;
-    margin-top: 10%;
     color: #f6f7eb;
     justify-content: center;
     align-items: center;
     text-align: justify;
-    padding: 25pt;
+    margin-left: 20%;
+    padding: 25pt 25pt;
     font-weight: 500;
     font-size: large;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -176,16 +176,6 @@ li {
 
 }
 
-.column2 {
-
-    flex: 1;
-    display: block;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-}
 
 
 
@@ -339,6 +329,7 @@ li {
     align-items: center;
     width: 33.3%;
     margin-top: 2%;
+    flex-direction: column;
 
 }
 
@@ -347,6 +338,7 @@ li {
     border-radius: 40pt;
     width: 80%;
     border: solid 4pt #f6f7eb;
+    
 }
 
 .item7 {
@@ -354,6 +346,10 @@ li {
     margin-left: 16.5%;
 }
 
+.item1 h6 {
+
+    background-color: #f6f7eb;
+}
 
 
 
@@ -363,7 +359,7 @@ li {
 
 .coding-page {
 
-    background-color: #12263a;
+    background-image: radial-gradient( #820933 20%, #12263a 60%);
 
 }
 
@@ -378,14 +374,36 @@ li {
 
 .sections {
 
-    background-color: #f6f7eb;
-    width: 70%;
+    /* background-color: #f6f7eb; */
+    width: 50%;
     border-radius: 20pt;
+    text-align: center;
+
 }
 
+.weeks {
 
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #f6f7eb;
+    width: 98%;
+    margin-bottom: 3%;
 
+}
 
+.week4-5 { 
 
+    margin-bottom: 0%;
+
+}
+
+.sheets  {
+
+    width: 70%;
+    border: solid 2pt black;
+    padding: 0%;
+    border-radius: 10pt;
+    
+}
 
 
