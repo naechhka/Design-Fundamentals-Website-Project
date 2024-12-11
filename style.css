@@ -101,7 +101,6 @@ li {
 .about-me-section-container {
 
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
     
@@ -136,7 +135,6 @@ li {
 .block2 {
 
     display: flex;
-    flex-grow: 1;
     align-items: center;
     justify-content: center;
 
@@ -193,12 +191,20 @@ li {
 
 .reflection {
 
-    background-color: aqua;
-    width: 20vh;
-    height: 200px;
+    flex: 1 1 70%;
+    background-color: #f6f7eb;
+    border-radius: 20pt;
+    height: 50pt;
+    margin: 10px 15%;
+    text-align: center;
 
 }
 
+.reflection h1 {
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(46, 42, 42);
+}
 
 
 
@@ -220,6 +226,7 @@ li {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     gap: 10px;
 
 }
@@ -227,6 +234,7 @@ li {
 .box {
 
     width: 40%;
+    min-width: 500px;
 
 }
 
@@ -259,6 +267,20 @@ li {
     font-weight: 400;
     font-size: large;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #12263a;
+
+}
+
+.box-text-carp p{
+
+    background-color: #f6f7eb;
+    border-radius: 20pt;
+    padding: 10pt;
+
+}
+
+.box-text-carp h2{
+
     color: #f6f7eb;
 
 }
@@ -266,36 +288,54 @@ li {
 .box-text-carp {
 
     width: 30vw;
+    min-width: 400px;
+    margin: 5%;
 
 }
 
 .box1-carp {
     
     display: flex;
-    justify-content: start;
+    justify-content: center;
+
+}
+
+.box1-carp3 {
+    
+    display: flex;
+    justify-content: center;
+    min-width: 50%;
 
 }
 
 .box5-carp {
 
     display: flex;
-    justify-content: start;
+    justify-content: center;
 
 }
 
 .box4-carp {
 
     display: flex;
-    justify-content: end;
+    justify-content: center;
 
 }
 
 .box8-carp {
     
     display: flex;
-    justify-content: end;
+    justify-content: center;
 
 }
+
+.box7-carp {
+
+    display: flex;
+    justify-content: end;
+}
+
+
 
 
 
@@ -338,7 +378,13 @@ li {
     border-radius: 40pt;
     width: 80%;
     border: solid 4pt #f6f7eb;
+    transition: transform 0.6s ease;
     
+}
+
+.items-typo img:hover {
+
+    transform: scale(105%);
 }
 
 .item7 {
@@ -360,6 +406,7 @@ li {
     background-color: #f6f7eb;
     border-radius: 4pt;
     margin-top: 2%;
+    margin-left: 5%;
 
 }
 
@@ -419,5 +466,7 @@ li {
     border-radius: 10pt;
     
 }
+
+
 
 
